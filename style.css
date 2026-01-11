@@ -141,6 +141,17 @@ nav a:hover {
     flex: 1 1 100%;
     margin-bottom: 24px;
   }
+
+  .process-step>span:nth-of-type(1) {
+    position: absolute;
+    top : -30px
+  }
+  .process-step img {
+    width: 80%;
+  }
+  .step-arrow {
+    display: none; /* 小屏幕隐藏箭头 */
+  }
 }
 
 
